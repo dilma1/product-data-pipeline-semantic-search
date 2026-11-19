@@ -100,8 +100,8 @@ Product_Search_POC/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd ai-product-data-pipeline
+git clone https://github.com/dilma1/product-data-pipeline-semantic-search.git
+cd product-data-pipeline-semantic-search
 ```
 
 ### 2. Create and activate a virtual environment
@@ -124,10 +124,6 @@ pip install -r requirements.txt
 ### 4. Sample data
 
 The three sample batches are already in data/raw_batches/. prepare_data.py is optional: it recreates them from Hugging Face and overwrites these files.
-
-```bash
-python prepare_data.py
-```
 
 ### 5. Run the pipeline
 
